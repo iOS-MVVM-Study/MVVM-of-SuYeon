@@ -21,7 +21,10 @@ class MainTabController: UITabBarController {
 
     func configureViewController() {
 
-        let feed = templateNavigationController(unselectedImage: UIImage(named: "home_unselected"), selectedImage: UIImage(named: "home_selected"), rootViewController: FeedController())
+        // UICollectionViewController는 인자로 layout을 가지고 있어야함 .
+        let layout = UICollectionViewFlowLayout()
+
+        let feed = templateNavigationController(unselectedImage: UIImage(named: "home_unselected"), selectedImage: UIImage(named: "home_selected"), rootViewController: FeedController(collectionViewLayout: layout))
 
         let search = templateNavigationController(unselectedImage: UIImage(named: "search_unselected"), selectedImage: UIImage(named: "search_selected"), rootViewController: SearchController())
 
