@@ -40,6 +40,8 @@ class MainTabController: UITabBarController {
 
         tabBar.backgroundColor = .white
         tabBar.tintColor = .black
+        // tabbar 불투명하게 
+        tabBar.isTranslucent = false
     }
 
     // 모든 탭에 대하여 각각 rootViewController로 설정하는 navigationcontroller을 생성하는 함수 !
