@@ -20,6 +20,9 @@
 		4DC1B78D27BD6DBA00D74EEF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1B78C27BD6DBA00D74EEF /* NotificationController.swift */; };
 		4DC1B78F27BD6DCB00D74EEF /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1B78E27BD6DCB00D74EEF /* ProfileController.swift */; };
 		4DC1B79127BE462F00D74EEF /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1B79027BE462F00D74EEF /* FeedCell.swift */; };
+		4DC1B79327BE4A5D00D74EEF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1B79227BE4A5D00D74EEF /* Extensions.swift */; };
+		4DC1B79627BE4AFB00D74EEF /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 4DC1B79527BE4AFB00D74EEF /* JGProgressHUD */; };
+		4DC1B79927BE4B7800D74EEF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4DC1B79827BE4B7800D74EEF /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,7 @@
 		4DC1B78C27BD6DBA00D74EEF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		4DC1B78E27BD6DCB00D74EEF /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		4DC1B79027BE462F00D74EEF /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		4DC1B79227BE4A5D00D74EEF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC1B79627BE4AFB00D74EEF /* JGProgressHUD in Frameworks */,
+				4DC1B79927BE4B7800D74EEF /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +109,7 @@
 		4DC1B77927BD65C000D74EEF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4DC1B79227BE4A5D00D74EEF /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -152,6 +159,10 @@
 			dependencies = (
 			);
 			name = InstagramFirestoreTutorial;
+			packageProductDependencies = (
+				4DC1B79527BE4AFB00D74EEF /* JGProgressHUD */,
+				4DC1B79827BE4B7800D74EEF /* SnapKit */,
+			);
 			productName = InstagramFirestoreTutorial;
 			productReference = 4DC1B76027BD5ADC00D74EEF /* InstagramFirestoreTutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -180,6 +191,10 @@
 				Base,
 			);
 			mainGroup = 4DC1B75727BD5ADB00D74EEF;
+			packageReferences = (
+				4DC1B79427BE4AFB00D74EEF /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				4DC1B79727BE4B7800D74EEF /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 4DC1B76127BD5ADC00D74EEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -216,6 +231,7 @@
 				4DC1B78F27BD6DCB00D74EEF /* ProfileController.swift in Sources */,
 				4DC1B78727BD6D7700D74EEF /* FeedController.swift in Sources */,
 				4DC1B77F27BD694100D74EEF /* MainTabController.swift in Sources */,
+				4DC1B79327BE4A5D00D74EEF /* Extensions.swift in Sources */,
 				4DC1B76627BD5ADC00D74EEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +452,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DC1B79427BE4AFB00D74EEF /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		4DC1B79727BE4B7800D74EEF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DC1B79527BE4AFB00D74EEF /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DC1B79427BE4AFB00D74EEF /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		4DC1B79827BE4B7800D74EEF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DC1B79727BE4B7800D74EEF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4DC1B75827BD5ADB00D74EEF /* Project object */;
 }
