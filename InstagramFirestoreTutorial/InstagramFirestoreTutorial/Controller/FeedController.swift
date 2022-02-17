@@ -30,7 +30,7 @@ class FeedController: UICollectionViewController {
 // MARK: - UICollectionViewDataSource
 
 extension FeedController {
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 5
     }
 
