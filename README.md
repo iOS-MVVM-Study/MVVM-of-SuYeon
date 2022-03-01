@@ -22,8 +22,8 @@ Build an Instagram iOS App Clone with Cloud Firestore, Swift 5, iOS 14 & No Stor
 |`1`|Project Setup & Getting Started With Main UI|- Configure Project <br/> - Setup Tabbed User Interface <br/> - Finish Tab Bar Setup |22.02.17|
 |`2`|Creating Feed User Interface Programatically|- Setting Up CollectionView Programmatically <br/> - Feed Cell UI & Intro To Programmatic Constraints <br/> - Finishing Up Feed Cell UI |22.02.17|
 |`3`|User Authentication UI & ViewModels|- Login Page UI <br/> - Creating Custom Subclasses for Reusability <br/> - Registration Page UI <br/> - Authentication View Model & Form Validation <br/> - Finishing Form Validation <br/> - Selecting Profile Photo|22.02.24|
-|`4`|Setting Up Firebase & User Authentication||
-|`5`|User Profile UI||
+|`4`|Setting Up Firebase & User Authentication|- Setting Up FireBase <br/> - Image Uploader & Authentication Service <br/> - Register User In FireBase <br/> - Root ViewController With Authentication| 22.03.03
+|`5`|User Profile UI|- Setting Up Profile CollectionView <br/> - Finishing Up Profile UI| 22.03.03
 |`6`|Fetching & Displaying User Data From Firestore||
 |`7`|Following / Unfollowing Users||
 |`8`|Uploading Posts & Displaying In Feed||
