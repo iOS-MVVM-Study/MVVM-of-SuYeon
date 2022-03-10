@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>252367132425-2lv9l03j56s4scfg6dddcu9cc27ivq20.apps.googleusercontent.com</string>
+	<string>252367132425-e56e06d2d2f68a20fce5d8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.252367132425-2lv9l03j56s4scfg6dddcu9cc27ivq20</string>
+	<string>com.googleusercontent.apps.252367132425-e56e06d2d2f68a20fce5d8</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDNuHOEI8oy-SHDo_9-cQfl38QX5dAXlsA</string>
+	<string>AIzaSyC4-lzz7mL3ZJVqvgBQeDpRYJM5ipGyX0g</string>
 	<key>GCM_SENDER_ID</key>
 	<string>252367132425</string>
 	<key>PLIST_VERSION</key>
@@ -19,15 +19,15 @@
 	<key>STORAGE_BUCKET</key>
 	<string>instagramfirestoretutori-d73a6.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:252367132425:ios:e56e06d2d2f68a20fce5d8</string>
 </dict>
